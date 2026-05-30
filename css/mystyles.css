@@ -1,6 +1,6 @@
 .yukicenter{
     text-align: center;
-    color: #aaccff;
+    color: #69696d;
     background-color: #ffdbe9;
     border: 2px solid #dabfff;
     padding: 20px;
@@ -8,21 +8,21 @@
 }
 .ziwojieshao{
     text-align: center;
-    color: #0003cd;
-    background-color: rgba(94, 177, 245, 0.568);
-    padding: 30px 40px;
-    border-radius: 20px;
+    color: #0d0e3a;
+    background-color: rgba(53, 60, 66, 0.368);
+    padding: 10px 10px;
+    border-radius: 10px;
     margin: -10px auto 0 auto ;
-    width: 70%;
+    width: 100%;
     height: 100px;
-    overflow: hidden;
+    
 }
 .yukii{
     text-align: center;
-    color: #ffffff;
+    color: #6767a9;
 }
 a.yulink{
-    color: #97bcfc;
+    color: #a2a29d;
     padding: 0 10px;
     border-radius: 20%;
 }
