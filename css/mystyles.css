@@ -9,7 +9,7 @@
 .ziwojieshao{
     text-align: center;
     color: #0d0e3a;
-    background-color: rgba(53, 60, 66, 0.368);
+    background-color: rgba(178, 179, 200, 0.668);
     padding: 10px 10px;
     border-radius: 10px;
     margin: -10px auto 0 auto ;
@@ -43,8 +43,13 @@ a.yulink:hover{
 }
 section#about{
     background-color: #ffddfa5b;
-    background-image: url(../assets/img/qqq.jpg);
+    background-image: url(../assets/img/ba.jpg);
 }
 section#awards{
     background-color: #ffddfa5b;
+}
+#sideNav {
+    background-color: #355078 !important;
+}
+
 }
