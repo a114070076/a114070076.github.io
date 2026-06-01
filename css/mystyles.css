@@ -6,20 +6,21 @@
     padding: 20px;
     border-radius: 30px;
 }
-.ziwojieshao{
-    text-align: center;
+.ziwojieshao {
+    text-align: left;
     color: #0d0e3a;
-    background-color: rgba(178, 179, 200, 0.668);
-    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 15px 20px;
     border-radius: 10px;
-    margin: -10px auto 0 auto ;
+    margin: -10px auto 0 auto;
     width: 100%;
-    height: 100px;
-    
+    max-width: 900px;
+    min-height: 100px;
+    line-height: 1.8;
 }
 .yukii{
     text-align: center;
-    color: #6767a9;
+    color: #6184cf;
 }
 a.yulink{
     color: #a2a29d;
@@ -37,17 +38,34 @@ a.yulink:hover{
 .gogogo{
     font-size: 45px;
     text-align: center;
+    clor: #59859b;
+}
+.gogogo a {
+    color: #5e92d2;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.gogogo a:hover {
+    color: #4551da;
+    background-color: transparent;
 }
 .zzzzz{
     text-align: center;
 }
-section#about{
-    background-color: #ffddfa5b;
-    background-image: url(../assets/img/ba.jpg);
+section#about {
+    background-image: url("../assets/img/bb.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 section#awards{
     background-color: #ffddfa5b;
 }
 #sideNav {
     background-color: #355078 !important;
+}
+.tsen-font {
+    font-family: "Times New Roman", "Noto Serif TC", serif;
+    color: #83bede !important;
 }
