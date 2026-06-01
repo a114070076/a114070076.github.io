@@ -1,10 +1,10 @@
-.yukicenter{
-    text-align: center;
+.yukicenter {
+    text-align: left;
     color: #3853ab;
-    background-color: #ffdbe9;
-    border: 2px solid #dabfff;
-    padding: 20px;
-    border-radius: 30px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    border-radius: 0;
 }
 .ziwojieshao {
     text-align: left;
@@ -17,6 +17,7 @@
     max-width: 900px;
     min-height: 100px;
     line-height: 1.8;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 .yukii{
     text-align: center;
@@ -28,8 +29,8 @@ a.yulink{
     border-radius: 20%;
 }
 a.yulink:hover{
-    background-color: #97bcfc;
-    color: #ffffff;
+    background-color:transparent #97bcfc;
+    color: #3479f0;
 }
 .asd{
     font-size: 20px;
@@ -59,6 +60,14 @@ section#about {
     background-position: center;
     background-repeat: no-repeat;
 }
+section#about {
+    min-height: 120vh;
+    background-image: url("../assets/img/bb.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
 section#awards{
     background-color: #ffddfa5b;
 }
@@ -68,4 +77,7 @@ section#awards{
 .tsen-font {
     font-family: "Times New Roman", "Noto Serif TC", serif;
     color: #83bede !important;
+}
+.text-primary {
+    color: #3853ab !important;
 }
