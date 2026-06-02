@@ -119,3 +119,12 @@ section#awards{
     filter: invert(35%) sepia(63%) saturate(1520%) hue-rotate(210deg) brightness(90%) contrast(90%);
     opacity: 0.8;
 }
+.table-responsive {
+    max-width: 900px;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.highschool-table {
+    width: 100%;
+}
