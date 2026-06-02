@@ -29,7 +29,7 @@ a.yulink{
     border-radius: 20%;
 }
 a.yulink:hover{
-    background-color:transparent #97bcfc;
+    background-color: transparent;
     color: #3479f0;
 }
 .asd{
@@ -80,4 +80,42 @@ section#awards{
 }
 .text-primary {
     color: #3853ab !important;
+}
+
+/* 展開中的標題 */
+.course-list-box .accordion-button:not(.collapsed) {
+    background-color: rgba(71, 88, 219, 0.15);
+    color: #355078;
+}
+
+/* 展開內容 */
+.course-list-box .accordion-body {
+    background-color: #ffffff;
+    color: #395168;
+}
+
+/* 每一格邊線 */
+.course-list-box .accordion-item {
+    border: 1px solid #ffffff;
+}
+.course-list-box,
+.course-list-box .accordion-item,
+.course-list-box .accordion-button {
+    border: none !important;
+    box-shadow: none !important;
+}
+.btn-primary {
+    background-color: #5e92d2 !important;
+    border-color: #5e92d2 !important;
+    color: #ffffff !important;
+}
+
+.btn-primary:hover {
+    background-color: #4551da !important;
+    border-color: #4551da !important;
+    color: #ffffff !important;
+}
+.course-list-box .accordion-button:not(.collapsed)::after {
+    filter: invert(35%) sepia(63%) saturate(1520%) hue-rotate(210deg) brightness(90%) contrast(90%);
+    opacity: 0.8;
 }
