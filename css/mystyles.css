@@ -150,3 +150,6 @@ section#awards{
     color: #7c92f3;
     text-align: center;
 }
+section#school,#concert, #photo ,#work,#cta{
+    background-color: rgba(131, 190, 222, 0.35);
+}
