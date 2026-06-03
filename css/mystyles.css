@@ -128,3 +128,17 @@ section#awards{
 .highschool-table {
     width: 100%;
 }
+.photo-rails img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
+.photo-vertical {
+    height: 300px;
+}
+
+.photo-horizontal {
+    height: 140px;
+}
