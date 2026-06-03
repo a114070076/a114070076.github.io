@@ -1,3 +1,7 @@
+/* =========================
+   文字與標題
+========================= */
+
 .yukicenter {
     text-align: left;
     color: #3853ab;
@@ -6,36 +10,78 @@
     padding: 0;
     border-radius: 0;
 }
-.ziwojieshao {
-    text-align: left;
-    color: #0d0e3a;
-    background-color: rgba(255, 255, 255, 0.75);
-    padding: 15px 20px;
-    border-radius: 10px;
-    margin: -10px auto 0 auto;
-    width: 100%;
-    max-width: 900px;
-    min-height: 100px;
-    line-height: 1.8;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-}
-.yukii{
+
+.yukii {
     text-align: center;
     color: #6184cf;
 }
-a.yulink{
+
+.zzzzz {
+    text-align: center;
+    color: #3853ab;
+}
+
+.magic-text {
+    text-align: center;
+    color: #7c92f3;
+}
+
+.tsen-font {
+    font-family: "Times New Roman", "Noto Serif TC", serif;
+    color: #83bede !important;
+}
+
+.text-primary {
+    color: #3853ab !important;
+}
+
+.asd {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+/* =========================
+   自我介紹區塊
+========================= */
+
+.ziwojieshao {
+    width: 100%;
+    max-width: 900px;
+    min-height: 100px;
+    margin: -10px auto 0 auto;
+    padding: 15px 20px;
+
+    text-align: left;
+    line-height: 1.8;
+    color: #0d0e3a;
+
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+/* =========================
+   連結樣式
+========================= */
+
+a.yulink {
     color: #a2a29d;
     padding: 0 10px;
     border-radius: 20%;
 }
-a.yulink:hover{
-    background-color: transparent;
+
+a.yulink:hover {
     color: #3479f0;
+    background-color: transparent;
 }
-.asd{
-    font-size: 20px;
-    font-weight: 800;
-}
+
+
+/* =========================
+   下滑箭頭
+========================= */
+
 .gogogo {
     width: 100%;
     display: flex;
@@ -43,27 +89,25 @@ a.yulink:hover{
     align-items: center;
     margin-top: 30px;
 }
+
 .gogogo a {
+    display: inline-block;
+    font-size: 60px;
     color: #5e92d2;
     background-color: transparent;
     text-decoration: none;
-    font-size: 60px;   /* 箭頭大小 */
-    display: inline-block;
 }
+
 .gogogo a:hover {
     color: #4551da;
     background-color: transparent;
 }
-.zzzzz{
-    text-align: center;
-    color: #3853ab;
-}
-section#about {
-    background-image: url("../assets/img/bb.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
+
+/* =========================
+   區塊背景
+========================= */
+
 section#about {
     min-height: 120vh;
     background-image: url("../assets/img/bb.jpg");
@@ -72,87 +116,115 @@ section#about {
     background-repeat: no-repeat;
     overflow: hidden;
 }
-section#awards{
-    background-color: #ffddfa5b;
+
+section#school,
+section#concert,
+section#photo,
+section#work,
+section#cta {
+    background-color: rgba(131, 190, 222, 0.35);
 }
+
+
+/* =========================
+   側邊導覽列
+========================= */
+
 #sideNav {
     background-color: #355078 !important;
 }
-.tsen-font {
-    font-family: "Times New Roman", "Noto Serif TC", serif;
-    color: #83bede !important;
-}
-.text-primary {
-    color: #3853ab !important;
-}
 
-/* 展開中的標題 */
-.course-list-box .accordion-button:not(.collapsed) {
-    background-color: rgba(71, 88, 219, 0.15);
-    color: #355078;
-}
 
-/* 展開內容 */
-.course-list-box .accordion-body {
-    background-color: #ffffff;
-    color: #395168;
-}
+/* =========================
+   手風琴課程區
+========================= */
 
-/* 每一格邊線 */
-.course-list-box .accordion-item {
-    border: 1px solid #ffffff;
-}
 .course-list-box,
 .course-list-box .accordion-item,
 .course-list-box .accordion-button {
     border: none !important;
     box-shadow: none !important;
 }
+
+.course-list-box .accordion-item {
+    border: 1px solid #ffffff;
+}
+
+.course-list-box .accordion-button:not(.collapsed) {
+    color: #355078;
+    background-color: rgba(71, 88, 219, 0.15);
+}
+
+.course-list-box .accordion-button:not(.collapsed)::after {
+    opacity: 0.8;
+    filter: invert(35%) sepia(63%) saturate(1520%) hue-rotate(210deg) brightness(90%) contrast(90%);
+}
+
+.course-list-box .accordion-body {
+    color: #395168;
+    background-color: #ffffff;
+}
+
+
+/* =========================
+   按鈕
+========================= */
+
 .btn-primary {
+    color: #ffffff !important;
     background-color: #5e92d2 !important;
     border-color: #5e92d2 !important;
-    color: #ffffff !important;
 }
 
 .btn-primary:hover {
+    color: #ffffff !important;
     background-color: #4551da !important;
     border-color: #4551da !important;
-    color: #ffffff !important;
 }
-.course-list-box .accordion-button:not(.collapsed)::after {
-    filter: invert(35%) sepia(63%) saturate(1520%) hue-rotate(210deg) brightness(90%) contrast(90%);
-    opacity: 0.8;
-}
+
+
+/* =========================
+   表格
+========================= */
+
 .table-responsive {
     max-width: 900px;
     margin-left: 0;
     margin-right: auto;
 }
+
 .highschool-table {
     width: 100%;
 }
+
+
+/* =========================
+   照片區
+========================= */
+
 .photo-rails img {
     width: 100%;
+    display: block;
     object-fit: cover;
     border-radius: 12px;
-    display: block;
 }
+
 .photo-vertical {
     height: 320px;
 }
+
 .photo-horizontal {
     height: 150px;
 }
+
+
+/* =========================
+   社群連結
+========================= */
+
 .social-icons .social-icon:hover,
 .social-icons .social-icon:active,
 .social-icons .social-icon:focus {
-    background-color: #5e92d2 !important;
     color: #ffffff !important;
-}
-.magic-text {
-    color: #7c92f3;
-    text-align: center;
-}
-section#school,#concert, #photo ,#work,#cta{
-    background-color: rgba(131, 190, 222, 0.35);
+    background-color: #5e92d2 !important;
 }
