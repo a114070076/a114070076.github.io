@@ -124,7 +124,6 @@ section#awards{
     margin-left: 0;
     margin-right: auto;
 }
-
 .highschool-table {
     width: 100%;
 }
@@ -134,11 +133,15 @@ section#awards{
     border-radius: 12px;
     display: block;
 }
-
 .photo-vertical {
     height: 300px;
 }
-
 .photo-horizontal {
     height: 140px;
+}
+.social-icons .social-icon:hover,
+.social-icons .social-icon:active,
+.social-icons .social-icon:focus {
+    background-color: #5e92d2 !important;
+    color: #ffffff !important;
 }
