@@ -36,17 +36,20 @@ a.yulink:hover{
     font-size: 20px;
     font-weight: 800;
 }
-.gogogo{
-    font-size: 45px;
-    text-align: center;
-    clor: #59859b;
+.gogogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 .gogogo a {
     color: #5e92d2;
     background-color: transparent;
     text-decoration: none;
+    font-size: 60px;   /* 箭頭大小 */
+    display: inline-block;
 }
-
 .gogogo a:hover {
     color: #4551da;
     background-color: transparent;
